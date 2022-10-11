@@ -1,0 +1,130 @@
+/* Style the topline items */
+#header {
+    align-items: center;
+    display: flex;
+    position:relative; 
+    right: auto;
+    left: 75%;
+    width: fit-content;
+}
+
+#userPhoto{
+    border-radius: 50%;
+    height: auto;
+    width: 35px;
+    margin: 10px;
+}
+
+.links{
+    color: #74797D;
+    font-family:sans-serif;
+    font-size: small;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Style the logo */
+#googleLogo {
+    display: flex;
+    height: auto;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#voiceIcon{
+    width: 10px;
+    height: auto;
+}
+/* styling for search bar */
+input[type=text] {
+    align-items: center;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 20px;
+    border-color: #74797D;
+    border-width: 0.5px;
+    border-radius: 25px;
+  }
+
+  input[type=text]:hover {
+    box-shadow: 0px 0px 5px #74797D;
+    border-color: #74797D;
+  }
+
+/* styling for search button and Im feeling lucky button*/
+input[type=submit] {
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #f2f2f2;
+    border: none;
+    color:#74797D;
+  }
+
+input[type=submit]:hover {
+    box-shadow: 0px 0px 2px #74797D;
+    border-color: #74797D;
+  }
+
+
+  
+/* styling for translate text*/
+#translate{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carbonNeutralImage{
+    display: flex;
+    height: 35px;
+    width: fit-content;
+}
+
+#carbonNeutralText{
+    margin-left: 35px;
+    display: inline;
+    margin: auto;
+}
+
+#lineBreak{
+} 
+
+.linksFooter{
+    color: #74797D;
+    font-family:sans-serif;
+    font-size: small;
+    justify-content: left;
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin: 10px;
+    display: flex;
+}
+
+.linksFooterRight{
+    margin-left: 50px;
+    display: flex;
+}
+/* general styling for page footer*/
+#pageFooter {
+    position: fixed;
+    background-color: #f2f2f2;
+    color: #74797D;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: fit-content;
+}

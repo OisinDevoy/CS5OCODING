@@ -1,0 +1,128 @@
+/*ADVANCED SEARCH SPECIFIC*/
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-left: 30px;
+}
+
+nav{
+    width: 100%;
+    height: 120px;
+    border-bottom: solid 1px #f2f2f2;
+    margin-left: -30px;
+}
+
+#logoNav{
+    margin-top: 20px;
+    height: 25px;
+    margin-left: 10px;
+    width: auto;
+}
+
+#userPhoto{
+    height: 35px;
+    width: auto;
+    float: right;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+/*Text formating*/
+
+h1{
+    color: #DA3025;
+    margin: 30px;
+    font-weight: lighter;
+    font-size: larger;
+    height: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter
+}
+
+form{
+    margin-left: 30px;
+}
+label{
+    font-size: small;
+}
+
+ul{
+    list-style: none;
+    padding-left:0;
+}
+
+a{
+    color: #1123CC;
+    text-decoration: none;
+}
+
+/*MAIN SECTION*/
+
+form{display: table;}
+p{display: table-row;}
+label { display: table-cell;}
+input { display: table-cell;}
+
+.findPageswith{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    border-bottom: solid 1px #dcdcdc;
+    margin-bottom: 50px;
+    margin-left: -30px;
+}
+input[type=text]{
+    border-color: #C0C0C0;
+    border-width: 0.5px;
+    border-radius: 2px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+    height: 35px;
+}
+
+.dropdown{
+    height: 35px;
+    border-radius: 2px;
+    background-color: #F4F4F4;
+    color: #333333;
+    border-color:#dcdcdc ;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.twoInputs{
+    display: inline-flex
+}
+
+/*SUBMIT BUTTON*/
+
+#buttonSubmit{
+    background: #4887ef; 
+    color: white;
+    border: solid 1px #3079ed;
+    padding: 7px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px; 
+    font-weight: bold;
+}
+
+#buttonSubmit:hover{
+    background-color:#4287f5;
+    border-color: #2c5cb4;
+}
+
+ /* Links to other resources section */
+.linkResources{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: small;
+}
+

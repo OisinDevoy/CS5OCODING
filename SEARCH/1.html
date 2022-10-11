@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Search</title>
+    <link rel="stylesheet" href="final.css" />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="advancedHeader">
+      <nav>
+        <ul id="nav_bar">
+          <li class="nav-links" id="imageSearch">
+            <a href="2.html">Images</a>
+          </li>
+          <li class="nav-links" id="advancedSearch">
+            <a href="3.html">Advanced</a>
+          </li>
+          <li id="sign_in"><a href="#">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+      <!-- GOOGLE IMG -->
+      <div class="google">
+        <a href="#" id="googleLogo">
+          <img id="googleLogo" src="googlelogo.png" alt="googlelogo"
+        /></a>
+      </div>
+
+      <!-- FORM SEARCH -->
+      <div class="form">
+        <form action="https://www.google.com/search?q" method="get">
+            <label for="form-search"></label>
+            <input type="text" id="form-search" name="q"/>
+
+            <!-- BUTTONS -->
+            <div class="buttons">
+                <div class="submitButton">
+                    <input type="submit" value="Google Search" id="submitButton1" />
+                    <input type="submit" value="I'm Feeling Lucky" id="submitButton2" />
+                </div>
+              </div>
+        </form>
+      </div>
+
+      <!-- LANGUAGE OPTION-->
+      <div>
+        <p id="translate">
+          Google offered in:
+          <a id="frenchLink" href="french " alt="language">french</a>
+        </p>
+      </div>
+    </main>
+
+    <!-- FOOTER     -->
+    <footer>
+        <div class="upperFooter">
+          <th>
+            <tr>
+              <p id="Country">Ireland</p>
+            </tr>
+          </th>
+        </div>
+        <hr id="bruh" />
+        <div class="lowerFooter">
+          <th>
+            <tr>
+              <a class="footerLinks" href="#">Advertising</a>
+            </tr>
+            <tr>
+              <a class="footerLinks" href="#">Business</a>
+            </tr>
+            <tr>
+              <a class="footerLinks" href="#">About</a>
+            </tr>
+          </th>
+        </div>
+      </footer>
+    </body>
+  </html>
+</body>
+</html>

@@ -1,0 +1,304 @@
+/* BASIC STYLES */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* NAV BAR */
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#nav_bar #sign_in {
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#sign_in:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+#sign_in {
+  color: #fff;
+}
+
+#userPhoto{
+  border-radius: 50%;
+  height: auto;
+  width: 35px;
+  display: inline-block;
+  margin-top: 20%;
+  
+}
+
+/* GOOGLE AREA */
+.google #googleLogo {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 300px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+
+.form {
+  text-align: center;
+}
+
+#form-search { 
+  width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;
+  align-items: center;
+  display: block;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40px;
+  border-color: #74797D;
+  border-width: 0.2px;
+  border-radius: 25px;
+}
+
+#form-search:hover {
+  box-shadow: 0px 0px 2px #74797D;
+  border-color: #74797D;
+}
+
+.form #form-search {
+  padding: 0 2px;
+}
+
+#form-search:hover {
+  border-color: #74797D;
+  padding-top: 0;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 150px;
+}
+
+#submitButton1{
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  color:#74797D;
+  border-radius: 5px;
+}
+
+#submitButton2{
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  color:#74797D;
+  border-radius: 5px;
+}
+
+#submitButton1:hover{
+  box-shadow: 0px 0px 2px #74797D;
+  border-color: #74797D;
+}
+
+#submitButton2:hover{
+  box-shadow: 0px 0px 2px #057cde;
+  border-color: #74797D;
+  background-color: #4887ef;
+  color: white;
+}
+
+/* Translate */
+#translate{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: -12%;
+  margin-bottom: 15%;
+}
+
+#frenchLink {
+  margin-left: 2px;
+  color: blue
+}
+
+/* FOOTER DONE */
+footer  {
+  background:  #f2f2f2;
+/*   position: fixed; */
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  
+}
+
+footer .upperFooter{
+  background:  #f2f2f2;
+  border-bottom: solid 0.5px #74797d;
+  border-top:none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-content: center;
+}
+
+/*   Image */
+footer #carbonNeutralImage{
+  height: 35px;
+  width: fit-content;
+}
+
+footer #carbonNeutralText{
+  display: inline;
+  align-items: center;
+  margin: 20px;
+  color:#74797D;
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+ 
+ li.nav-links a {
+    display: none;
+  }
+  
+ #googleLogo {
+   padding: 0;
+ }
+  
+ .buttons {
+   display: none;
+ }
+  
+ #form-search {
+   width: 80%;
+
+ }
+  
+ footer {
+   bottom: 0;
+ }
+  
+ footer ul {
+   float: none;
+   padding-bottom: 2px;
+    
+ }
+  
+ .footer-left {
+   text-align: center;
+   margin: auto; 
+   padding-top: 10px;
+    
+ }
+  
+ .footer-right {
+   float: none;
+   text-align: center;
+   
+ }
+}
+
+@media screen and (max-width: 565px) {
+ 
+  li.nav-links a {
+    display: none;
+  }
+  
+  
+ #googleLogo {
+   padding: 0;
+ }
+  
+ .buttons {
+   display: none;
+ }
+  
+ #form-search {
+   width: 80%;
+
+ }
+  
+ footer {
+/*    bottom: 0;
+   postion: absolute; */
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+ }
+  
+ footer ul {
+   float: none;
+   padding-bottom: 2px;
+    
+ }
+  
+ .footer-left {
+   text-align: center;
+   margin: auto; 
+   padding-top: 10px;
+    
+ }
+  
+ .footer-right {
+   float: none;
+   text-align: center;
+   
+ }
+}
